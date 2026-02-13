@@ -40,6 +40,7 @@ export function Teachers() {
                     <img
                     src={teacher.photo}
                     alt={teacher.name}
+                    loading = "lazy"
                     className="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
